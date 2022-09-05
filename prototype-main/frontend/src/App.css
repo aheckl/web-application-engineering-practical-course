@@ -1,0 +1,35 @@
+
+.image {
+  width: 100%;
+  height: fit-content;
+  border-radius: 2px;
+}
+
+.right-arrow {
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* for Animation */
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+/* for Animation */
+.slide.active {
+  opacity: 1;
+  transition-duration: 0.5s;
+  transform: scale(0.99);
+}
